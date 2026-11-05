@@ -54,9 +54,9 @@ UTS Web 312510035 Noval Aditya Suryawan/
 ## 🖥️ Tangkapan Layar (Screenshot) Hasil Tampilan
 
 (Tambahkan tangkapan layar tampilan halaman website Anda di sini)
-##Tampilan Program
+## Tampilan Program
 ![Tampilan Program](screenshots/TampilanProgram.png)
-##Tampilan Web
+## Tampilan Web
 ![Tampilan Web](screenshots/HalamanWeb.png)
 
 

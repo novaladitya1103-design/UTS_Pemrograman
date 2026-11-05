@@ -54,19 +54,19 @@ UTS Web 312510035 Noval Aditya Suryawan/
 ## 🖥️ Tangkapan Layar (Screenshot) Hasil Tampilan
 
 (Tambahkan tangkapan layar tampilan halaman website Anda di sini)
-Tampilan Program
+##Tampilan Program
 ![Tampilan Program](screenshots/TampilanProgram.png)
-Tampilan Web
+##Tampilan Web
 ![Tampilan Web](screenshots/HalamanWeb.png)
 
 
-Header
+## 1.Header
 ![Header](screenshots/1.png)
-Hero Panel
+## 2.Hero Panel
 ![Hero Panel](screenshots/2.png)
-Biografi
+## 3.Biografi
 ![Biografi](screenshots/3.png)
-Tabel
+## 4.Tabel
 ![Tabel](screenshots/4.png)
 ## 💻 Cara Menjalankan Proyek
 

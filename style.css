@@ -1,0 +1,303 @@
+/* Pengaturan Dasar & Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* Header & Navigasi Sticky */
+header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container-header {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-header h1 {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Panel */
+.hero {
+    background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url('images/imagelain.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero-content h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+/* Kontainer Utama */
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.section-box {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.section-box h2 {
+    color: #003366;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #003366;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+/* Biografi & Profil Utama */
+.bio-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.foto-profil {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #003366;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.bio-teks {
+    flex: 1;
+    min-width: 250px;
+}
+
+.bio-teks p {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+/* Tabel (Pendidikan & Pengalaman) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #dcdcdc;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* Keahlian (List) */
+.keahlian-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.keahlian-container div {
+    flex: 1;
+    min-width: 250px;
+}
+
+.keahlian-container h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+ul, ol {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+}
+
+/* Multimedia */
+.multimedia-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.media-item {
+    flex: 1;
+    min-width: 280px;
+    background: #fdfdfd;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+}
+
+.media-item h3 {
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: #003366;
+}
+
+audio {
+    width: 100%;
+}
+
+video {
+    border-radius: 4px;
+}
+
+/* Form Kontak Interaktif */
+.form-kontak {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+.form-group input, 
+.form-group textarea {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    border-color: #003366;
+}
+
+.btn-kirim {
+    background-color: #003366;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-kirim:hover {
+    background-color: #002244;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+/* Media Query untuk Perangkat Mobile (Responsif) */
+@media (max-width: 768px) {
+    .container-header {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hero-content h2 {
+        font-size: 24px;
+    }
+
+    .bio-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .keahlian-container, .multimedia-wrapper {
+        flex-direction: column;
+    }
+}

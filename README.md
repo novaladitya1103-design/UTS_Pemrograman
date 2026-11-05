@@ -1,54 +1,45 @@
-Laporan Praktikum UTS Pemrograman Web
+# 🌐 Web Portofolio - Ujian Tengah Semester (UTS) Pemrograman Web
 
-Halaman Website Profil Pribadi (Personal Portfolio)
+Repositori ini berisi kode sumber dan dokumentasi proyek Ujian Tengah Semester (UTS) mata kuliah **Pemrograman Web** di **Universitas Pelita Bangsa**. Website ini adalah portofolio pribadi interaktif dan responsif yang dibangun menggunakan **HTML5** dan **CSS3**.
 
-👨‍🎓 Informasi Mahasiswa
+---
 
-Nama : Noval Aditya Suryawan
+## 👨‍🎓 Informasi Mahasiswa
 
-NIM : [312510035]
+* **Nama:** Noval Aditya Suryawan
+* **NIM:** 312510035
+* **Program Studi:** Teknik Informatika (Kelas TI.25.C1 / I253B)
+* **Mata Kuliah:** Pemrograman Web
+* **Dosen Pengampu:** Sufajar Butsianto, S.Kom, M.Kom
+* **Institusi:** Universitas Pelita Bangsa
 
-Program Studi : Teknik Informatika
+---
 
-Mata Kuliah : Pemrograman Web
+## 📝 Deskripsi Proyek
 
-Dosen Pengampu : Sufajar Butsianto, S.Kom, M.Kom
+Proyek ini dirancang untuk menampilkan profil diri secara profesional, mencakup riwayat pendidikan formal, pengalaman kerja di industri manufaktur, daftar keahlian teknis, pemutar media perkenalan, serta formulir kontak interaktif yang dilengkapi dengan validasi HTML5.
 
-Institusi : Universitas Pelita Bangsa
+---
 
-📝 Deskripsi Proyek
+## 🛠️ Spesifikasi & Fitur Website
 
-Proyek ini dibuat untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pemrograman Web. Website ini merupakan portofolio pribadi (Personal Portfolio) interaktif dan responsif yang dibangun menggunakan HTML5 standar dan CSS3.
+Website ini mencakup seluruh komponen wajib sesuai dengan ketentuan soal UTS:
+1. **Struktur Dokumen & Semantic HTML5:** Menggunakan tag semantik seperti `<header>`, `<nav>`, `<section>`, dan `<footer>`.
+2. **Header, Navigasi, & Hero Panel:** Navigasi *sticky* di bagian atas serta *Hero Banner* perkenalan utama.
+3. **Biografi & Profil Utama:** Menampilkan foto profil melingkar dengan *layout* fleksibel dan deskripsi latar belakang.
+4. **Tabel Riwayat Pendidikan:** Jenjang pendidikan dari tingkat dasar (SD) hingga perguruan tinggi (S1 Teknik Informatika).
+5. **Tabel Riwayat Pengalaman Kerja:** Pengalaman industri di PT. Cosmoprof Indokarya, PT. Multi Reka Prima, dan PT. Astra Honda Motor.
+6. **Riwayat Keahlian:** Penerapan *Unordered List* (`<ul>`) untuk keahlian teknis dan *Ordered List* (`<ol>`) untuk perangkat/tools.
+7. **Elemen Multimedia:** Integrasi pemutar audio (`<audio>`) dan video (`<video>`) interaktif untuk perkenalan.
+8. **Form Kontak Interaktif:** Formulir pesan yang dilengkapi validasi atribut HTML5 (`required`, `type="email"`).
+9. **Styling & Layout CSS3:** Memanfaatkan *Flexbox*, *Media Queries* untuk tampilan responsif perangkat mobile, serta efek *hover* interaktif.
 
-Website ini dirancang untuk menampilkan profil diri, riwayat pendidikan, pengalaman kerja di industri, keahlian teknis, pemutar media perkenalan, serta formulir kontak interaktif.
+---
 
-🛠️ Spesifikasi & Fitur Website
+## 📁 Struktur Folder Proyek
 
-Website ini mencakup seluruh komponen wajib sesuai petunjuk soal UTS:
-
-Struktur Dokumen & Semantic HTML5: Menggunakan tag semantik seperti <header>, <nav>, <section>, <article>, dan <footer>.
-
-Header, Navigasi, & Hero Panel: Navigasi sticky di bagian atas serta Hero Banner perkenalan utama.
-
-Biografi & Profil Utama: Menampilkan foto profil dan deskripsi singkat latar belakang.
-
-Tabel Riwayat Pendidikan: Menampilkan jenjang pendidikan dari SD hingga S1 Teknik Informatika.
-
-Tabel Riwayat Pengalaman Kerja: Menampilkan riwayat kerja di industri (PT. Cosmoprof Indokarya, PT. Multi Reka Prima, dan PT. Astra Honda Motor).
-
-Riwayat Keahlian: Menggunakan Unordered List (<ul>) untuk keahlian teknis dan Ordered List (<ol>) untuk tools/perangkat.
-
-Elemen Multimedia: Pemutar audio (<audio>) dan video (<video>) interaktif untuk perkenalan.
-
-Form Kontak Interaktif & Validasi: Form pesan menggunakan atribut validasi HTML5 (required, type="email").
-
-Styling & Layout CSS3: Menggunakan Flexbox, Media Queries untuk tampilan responsif mobile, serta efek hover interaktif.
-
-📁 Struktur Folder Proyek
-
-Proyek disusun rapi sesuai dengan direktori pengumpulan yang ditentukan:
-
-UTS Web NIM Nama/
+```text
+UTS Web 312510035 Noval Aditya Suryawan/
 ├── index.html           # Halaman utama profil pribadi
 ├── style.css            # File stylesheet eksternal
 ├── images/              # Folder penampung foto & gambar latar
@@ -57,14 +48,17 @@ UTS Web NIM Nama/
 ├── media/               # Folder penampung media perkenalan
 │   ├── audio.mp3        # File audio perkenalan
 │   └── video.mp4        # File video presentasi profil
-└── README.md            # Laporan ringkas proses pembuatan
+└── README.md            # Dokumentasi / Laporan proyek
+
 
 
 🖥️ Tangkapan Layar (Screenshot) Hasil Tampilan
 
 (Tambahkan tangkapan layar tampilan halaman website Anda di sini)
-![Tampilan Program](screenshots/1.png)
-![Tampilan Web](screenshots/1.png)
+Tampilan Program
+![Tampilan Program](screenshots/TampilanProgram.png)
+Tampilan Web
+![Tampilan Web](screenshots/HalamanWeb.png)
 
 
 Header

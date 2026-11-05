@@ -50,7 +50,8 @@ UTS Web 312510035 Noval Aditya Suryawan/
 │   └── video.mp4        # File video presentasi profil
 └── README.md            # Dokumentasi / Laporan proyek
 
-🖥️ Tangkapan Layar (Screenshot) Hasil Tampilan
+```
+## 🖥️ Tangkapan Layar (Screenshot) Hasil Tampilan
 
 (Tambahkan tangkapan layar tampilan halaman website Anda di sini)
 Tampilan Program
@@ -67,7 +68,7 @@ Biografi
 ![Biografi](screenshots/3.png)
 Tabel
 ![Tabel](screenshots/4.png)
-💻 Cara Menjalankan Proyek
+## 💻 Cara Menjalankan Proyek
 
 Unduh atau extract folder proyek UTS Web NIM Nama.
 
